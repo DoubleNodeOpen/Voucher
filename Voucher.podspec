@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Voucher"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "A simple library to make authenticating tvOS apps easy via their iOS counterparts using Bonjour."
 
   # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/rsattar/Voucher.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/DoubleNodeOpen/Voucher.git", :tag => s.version.to_s }
 
   s.source_files  = "Voucher", "Voucher/**/*.{h,m}"
 
